@@ -1,0 +1,693 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(./../photo/Image.png), url(./../photo/Decore.png), url(./../photo/Ellipse.png);
+  background-repeat: no-repeat;
+  background-position-x: right,right,left;
+  background-size: 640px,700px 581px,230px;
+  background-position-y: 100px,0px,top;
+  background-position-x: 80%, right ,right; }
+
+/* Beginning of Header content stylesheet */
+.header_container {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0px 15%;
+  padding-top: 47px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .header_container #burget_menu_icon {
+    position: relative;
+    display: none;
+    width: 70px;
+    height: 40px; }
+    .header_container #burget_menu_icon img {
+      width: 40px;
+      height: 40px; }
+    .header_container #burget_menu_icon #burget_menu {
+      display: none;
+      position: absolute;
+      width: 100px;
+      background-color: yellow;
+      left: -40px; }
+  .header_container .logo {
+    cursor: pointer; }
+  .header_container .nav_bar {
+    width: 460px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .header_container .nav_bar_item {
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 22px;
+      color: #212832;
+      cursor: pointer; }
+      .header_container .nav_bar_item:hover {
+        color: #6e7399;
+        font-size: 18px; }
+  .header_container .reg_container {
+    width: 279px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer; }
+    .header_container .reg_container_login a {
+      width: 44px;
+      height: 22px;
+      color: #212832;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 17px;
+      padding-left: 30px; }
+      .header_container .reg_container_login a:hover {
+        color: #6e7399;
+        font-size: 18px; }
+    .header_container .reg_container_sign a {
+      width: 102px;
+      height: 40px;
+      border: 1px solid #212832;
+      border-radius: 5px;
+      padding: 9px 22px;
+      color: #212832;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 17px; }
+      .header_container .reg_container_sign a:hover {
+        color: #6e7399;
+        font-size: 18px; }
+    .header_container .reg_container_laguage a {
+      width: 23px;
+      height: 22px;
+      color: #212832;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 17px; }
+      .header_container .reg_container_laguage a:hover {
+        color: #6e7399;
+        font-size: 18px; }
+    .header_container .reg_container_laguage img {
+      width: 9px;
+      height: 5px; }
+
+/* Beginning of Section 1 "Hero" content stylesheet */
+.hero_container {
+  padding: 0 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 764px; }
+  .hero_container_title {
+    font-family: 'Poppins', sans-serif;
+    color: #DF6951;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px; }
+  .hero_container_description {
+    padding-top: 24px;
+    font-family: 'Volkhov', serif;
+    color: #181E4B;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 89px; }
+  .hero_container_text {
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #5E6282;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px; }
+  .hero_container_low {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+  .hero_container_button {
+    cursor: pointer;
+    width: 170px;
+    height: 60px;
+    background-color: #f1a501;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF; }
+  .hero_container_play {
+    padding: 0 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+  .hero_container_play img {
+    padding-top: 38px; }
+  .hero_container_play p {
+    font-family: 'Poppins', sans-serif;
+    color: #686D77;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px; }
+
+/* Beginning of Section 2 "Services" content stylesheet */
+.services_container {
+  padding-top: 105px;
+  padding: 0 15%; }
+  .services_container_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .services_container_category {
+    font-family: 'Poppins', sans-serif;
+    color: #5E6282;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px; }
+  .services_container_title {
+    padding-top: 10px;
+    font-family: 'Volkhov', serif;
+    color: #14183E;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px; }
+  .services_container_categori {
+    display: flex;
+    justify-content: space-between;
+    height: 227px; }
+    .services_container_categori .cards_vector {
+      height: 5rem; }
+    .services_container_categori_cards {
+      height: 227px;
+      padding-top: 110px;
+      text-align: center; }
+      .services_container_categori_cards_title {
+        padding-top: 30px;
+        height: 27px;
+        font-family: 'Open Sans', sans-serif;
+        color: #1E1D4C;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px; }
+      .services_container_categori_cards_desc {
+        padding-top: 39px;
+        height: 78px;
+        font-family: 'Poppins', sans-serif;
+        color: #5E6282;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px; }
+
+/* Ending of of Section 2 "Services" content stylesheet */
+/* Beginning of Section 3 "Destinations" content stylesheet */
+.destination_container {
+  padding: 0 15%;
+  padding-top: 123px; }
+  .destination_container_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .destination_container_selling {
+    padding-top: 123px;
+    font-family: 'Poppins', sans-serif;
+    color: #5E6282;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px; }
+  .destination_container_title {
+    padding-top: 8px;
+    font-family: 'Volkhov', serif;
+    color: #181E4B;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center; }
+  .destination_container_categori {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .destination_container_categori .cards_option {
+      cursor: pointer; }
+    .destination_container_categori_cards {
+      margin: 20px auto;
+      height: 457px;
+      border-radius: 1.5rem;
+      box-shadow: 0 15px 20px -1px rgba(0, 0, 0, 0.15); }
+      .destination_container_categori_cards:hover {
+        transform: scale(1.02);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; }
+    .destination_container_categori_name_and_price {
+      padding: 27px 8%;
+      display: flex;
+      justify-content: space-between; }
+      .destination_container_categori_name_and_price .country {
+        font-family: 'Poppins', sans-serif;
+        color: #5E6282;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 125%; }
+      .destination_container_categori_name_and_price .price {
+        height: 22px;
+        font-family: 'Poppins', sans-serif;
+        color: #5E6282;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 125%; }
+    .destination_container_categori_trip_duration {
+      padding: 0px 8%;
+      display: flex; }
+      .destination_container_categori_trip_duration .days {
+        height: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: #5E6282;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%; }
+
+/* Ending of of Section 3 Destinations" content stylesheet */
+/* Beginning of Section 4 "Book a trip" content stylesheet */
+.bookatrip_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15%; }
+  .bookatrip_container_content {
+    padding-top: 186px; }
+    .bookatrip_container_content_easy {
+      font-family: 'Poppins', sans-serif;
+      color: #5E6282;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px; }
+    .bookatrip_container_content_steps {
+      padding-top: 15px;
+      font-family: 'Volkhov', serif;
+      color: #14183E;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 64px; }
+  .bookatrip_container_values_icon {
+    padding-top: 48px;
+    display: flex;
+    flex-direction: row; }
+    .bookatrip_container_values_icon_photo {
+      cursor: pointer; }
+    .bookatrip_container_values_icon_content {
+      padding: 0 5%; }
+      .bookatrip_container_values_icon_content_head {
+        font-family: 'Poppins', sans-serif;
+        color: #5E6282;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 125%; }
+      .bookatrip_container_values_icon_content_title {
+        padding-top: 4px;
+        font-family: 'Poppins', sans-serif;
+        color: #5E6282;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 125%; }
+  .bookatrip_container_card {
+    border-radius: 1.5rem;
+    box-shadow: 0 20px 30px -1px rgba(0, 0, 0, 0.15);
+    margin-top: 264px;
+    position: relative; }
+    .bookatrip_container_card_girl {
+      cursor: pointer;
+      padding: 20px 25px;
+      border-radius: 24px; }
+      .bookatrip_container_card_girl_photo {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+    .bookatrip_container_card_content {
+      padding: 0 8%; }
+      .bookatrip_container_card_content .greece {
+        font-family: 'Poppins', sans-serif;
+        color: #080809;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 125%; }
+      .bookatrip_container_card_content .joseph {
+        padding-top: 13px;
+        font-family: 'Poppins', sans-serif;
+        color: #84829A;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%; }
+    .bookatrip_container_card_icon {
+      padding: 0 8%;
+      padding-top: 21px;
+      cursor: pointer; }
+      .bookatrip_container_card_icon_photo {
+        border-radius: 26px; }
+        .bookatrip_container_card_icon_photo:hover {
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+    .bookatrip_container_card_people {
+      padding: 20px 0 31px 8%;
+      display: flex; }
+      .bookatrip_container_card_people_text {
+        font-family: 'Poppins', sans-serif;
+        color: #84829A;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%; }
+      .bookatrip_container_card_people_photo_heart {
+        cursor: pointer;
+        margin-left: 40%; }
+  .bookatrip_container_ongoing {
+    display: flex;
+    position: absolute;
+    bottom: 53px;
+    right: -106px;
+    background: #FFFFFF;
+    width: 263px;
+    height: 129px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 18px; }
+    .bookatrip_container_ongoing_photo {
+      cursor: pointer;
+      padding: 20px 25px; }
+    .bookatrip_container_ongoing_content {
+      padding: 0 12px; }
+      .bookatrip_container_ongoing_content .ongo {
+        padding-top: 16px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 125%; }
+      .bookatrip_container_ongoing_content .rome {
+        padding-top: 6px;
+        font-family: 'Poppins', sans-serif;
+        color: #080809;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 125%; }
+      .bookatrip_container_ongoing_content .purpur {
+        padding-top: 14px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 125%;
+        color: #8A79DF; }
+      .bookatrip_container_ongoing_content .completed {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 125%;
+        color: #080809; }
+      .bookatrip_container_ongoing_content .line {
+        margin-top: 10px;
+        border-radius: 30px;
+        background: #F5F5F5;
+        height: 5px; }
+      .bookatrip_container_ongoing_content .forty {
+        border-radius: 30px;
+        height: 100%;
+        width: 40%;
+        background-color: #8A79DF; }
+  @media (max-width: 479px) {
+    .bookatrip_container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .bookatrip_container_content_easy {
+        text-align: center;
+        font-size: 25px; }
+      .bookatrip_container_content_steps {
+        text-align: center;
+        font-size: 40px; }
+      .bookatrip_container_ongoing {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        bottom: -113px;
+        right: 26px; } }
+  @media (max-width: 1200px) {
+    .bookatrip_container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .bookatrip_container_card {
+        margin-top: 100px; }
+      .bookatrip_container_content_easy {
+        text-align: center;
+        font-size: 25px; }
+      .bookatrip_container_content_steps {
+        text-align: center;
+        font-size: 40px; }
+      .bookatrip_container_ongoing {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        bottom: -113px;
+        right: 26px; } }
+
+/* Ending of of Section 4 "Book a trip" content stylesheet */
+/* Beginning of Section 5 "Feedback" content stylesheet */
+.feedback_container {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15%; }
+  .feedback_container_heading_title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #5E6282;
+    padding-bottom: 20px; }
+  .feedback_container_heading_description {
+    width: 410px;
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #14183E; }
+  .feedback_container_card {
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    height: 250px;
+    width: 504px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative; }
+    .feedback_container_card_message {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 32px;
+      color: #5E6282; }
+    .feedback_container_card_id_name {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: #5E6282; }
+    .feedback_container_card_id_location {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      color: #5E6282; }
+    .feedback_container_card_image {
+      position: absolute;
+      top: -40px;
+      left: -40px; }
+  @media (max-width: 1200px) {
+    .feedback_container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .feedback_container_heading {
+        text-align: center; }
+      .feedback_container_card {
+        height: auto;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0; }
+        .feedback_container_card_id {
+          margin-top: 30px; } }
+  @media (max-width: 479px) {
+    .feedback_container_header_description {
+      font-size: 40px; } }
+
+/* Ending of of Section 5 "Feedback" content stylesheet */
+/* Beginning of Section 6 "Gallery" content stylesheet */
+.gallery_container {
+  margin: 150px auto;
+  padding: 0 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  @media (max-width: 900px) {
+    .gallery_container {
+      flex-direction: column; }
+      .gallery_container_item {
+        margin-top: 20px; } }
+  .gallery_container_item {
+    display: inline-block;
+    width: 241px;
+    height: 86px; }
+    .gallery_container_item_photo {
+      height: 100%;
+      width: 100%;
+      margin: 0 auto;
+      cursor: pointer;
+      filter: grayscale(100%); }
+      .gallery_container_item_photo:hover {
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        filter: grayscale(0%); }
+
+@media (max-width: 1000px) {
+  .header_container .nav_bar_item {
+    display: none; }
+  .header_container .reg_container a {
+    display: none; }
+  .header_container .reg_container_laguage img {
+    display: none; }
+  .header_container #burget_menu_icon {
+    display: block; }
+  .hero_container {
+    justify-content: flex-start; }
+    .hero_container_title {
+      padding-top: 60px;
+      font-size: 17px;
+      text-align: center; }
+    .hero_container_description {
+      font-size: 50px;
+      line-height: 60px;
+      text-align: center; }
+    .hero_container_text {
+      text-align: center;
+      font-size: 17px;
+      line-height: 23px; }
+    .hero_container_button {
+      font-size: 0.875rem; }
+    .hero_container_play p {
+      font-size: 0.875rem; }
+  .services_container_content h2 {
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 23px; }
+  .services_container_categori {
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .destination_container_title {
+    font-size: 40px; } }
+
+/* Ending of of Section 6 "Gallery" content stylesheet */
+/* Beginning of Section 7 "Subscribe" content stylesheet */
+.subscribe_container {
+  padding: 0 15%;
+  margin-bottom: 100px; }
+  .subscribe_container_section {
+    position: relative;
+    border-radius: 129px 20px 20px 20px;
+    background-color: #f6f3fd;
+    margin: 13px auto;
+    padding-bottom: 50px; }
+    .subscribe_container_section .send {
+      position: absolute;
+      left: auto;
+      top: -8%;
+      right: -2%;
+      bottom: 0%;
+      cursor: pointer; }
+    .subscribe_container_section .subscribe {
+      padding: 79px 20px 0;
+      font-family: 'Poppins';
+      text-align: center;
+      color: #5E6282;
+      font-weight: 600;
+      font-size: 33px;
+      line-height: 54px; }
+    .subscribe_container_section_email {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-top: 74px; }
+      .subscribe_container_section_email_form {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0 30px; }
+        .subscribe_container_section_email_form #your_email_elem {
+          height: 60px;
+          width: 400px;
+          border-radius: 7px;
+          margin-right: 20px;
+          border: none;
+          border-left: 15px solid white;
+          padding-left: 25px;
+          background: url("./../photo/Group 46.svg") no-repeat left white;
+          background-size: 20px; }
+        .subscribe_container_section_email_form #sub_btn {
+          width: 150px;
+          cursor: pointer;
+          border-radius: 7px;
+          border: none;
+          background: #FF946D;
+          color: wheat; }
+          .subscribe_container_section_email_form #sub_btn:hover {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+
+/* Ending of of Section 7 "Subscribe" content stylesheet */
+/* Beginning of Footer content stylesheet */
+/* Ending of of Footer content stylesheet */
+@media (max-width: 479px) {
+  body {
+    background-size: 329px,468px 200px,530px;
+    background-position-y: 95px,0px,top;
+    background-position-x: 13%, right ,right; }
+  .nav_bar_item {
+    display: none; }
+  .reg_container a {
+    display: none; }
+  .reg_container_laguage img {
+    display: none; }
+  .hero_container_title {
+    padding-top: 15px;
+    font-size: 0.875rem;
+    text-align: center; }
+  .hero_container_description {
+    padding-top: 309px;
+    font-size: 2.3rem;
+    line-height: 37px;
+    text-align: center; }
+  .hero_container_text {
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 23px; }
+  .hero_container_button {
+    font-size: 0.8rem; }
+  .hero_container_play p {
+    font-size: 0.8rem; }
+  .services_container_content h2, .services_container h3 {
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 15px; }
+  .services_container_categori {
+    display: flex;
+    flex-direction: column; }
+  .services_container_cards img, .services_container h4, .services_container p {
+    padding-top: 2px;
+    font-size: 1.2rem;
+    line-height: 25px; }
+  .services_container .cards_vector {
+    height: 6rem; }
+  .destination_container_title {
+    font-size: 40px; } }
