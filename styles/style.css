@@ -647,6 +647,102 @@ body {
 
 /* Ending of of Section 7 "Subscribe" content stylesheet */
 /* Beginning of Footer content stylesheet */
+.footer {
+  padding: 0 15%;
+  display: flex;
+  justify-content: space-between; }
+  @media (max-width: 1400px) {
+    .footer {
+      flex-direction: column; }
+      .footer_name {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px; }
+      .footer_info {
+        justify-content: space-between; }
+      .footer_social_media {
+        margin: 50px auto; } }
+  .footer_name_jadoo {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 66px;
+    color: #181E4B; }
+  .footer_name_book {
+    width: 207px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 125%;
+    color: #5E6282; }
+  .footer_info {
+    display: flex;
+    flex-direction: row; }
+    @media (max-width: 700px) {
+      .footer_info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; } }
+    .footer_info_item {
+      margin: 0 40px;
+      width: 100px;
+      height: 150px; }
+      .footer_info_item h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 125%;
+        color: #080809; }
+      .footer_info_item ul {
+        list-style-type: none; }
+        .footer_info_item ul li {
+          margin-top: 10px;
+          text-decoration: none;
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 125%;
+          color: #5E6282; }
+  .footer_social_media_app {
+    margin-top: 28px;
+    padding-left: 15px; }
+    .footer_social_media_app p {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 125%;
+      color: #5E6282; }
+  .footer_social_media_apps_links {
+    padding: 16px 7px; }
+  @media (max-width: 479px) {
+    .footer {
+      display: flex;
+      flex-direction: column; }
+      .footer_name {
+        text-align: center; }
+      .footer_info {
+        display: flex;
+        flex-direction: column; } }
+
+.rights {
+  text-align: center;
+  margin: 84px 0 79px 0; }
+  .rights a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 125%;
+    color: #5E6282; }
+
 /* Ending of of Footer content stylesheet */
 @media (max-width: 479px) {
   body {
