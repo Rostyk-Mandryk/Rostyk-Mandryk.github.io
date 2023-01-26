@@ -27,15 +27,30 @@ body {
     display: none;
     width: 70px;
     height: 40px; }
+    .header_container #burget_menu_icon:hover #burget_menu {
+      display: block; }
     .header_container #burget_menu_icon img {
       width: 40px;
       height: 40px; }
     .header_container #burget_menu_icon #burget_menu {
       display: none;
       position: absolute;
-      width: 100px;
-      background-color: yellow;
-      left: -40px; }
+      width: 200px;
+      height: 300px;
+      background-color: rgba(241, 165, 1, 0.98);
+      left: -90px;
+      top: 30px;
+      border-radius: 20px;
+      margin-top: 5px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; }
+      .header_container #burget_menu_icon #burget_menu a {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+        color: #FFFFFF;
+        font-family: 'Open Sans', sans-serif; }
   .header_container .logo {
     cursor: pointer; }
   .header_container .nav_bar {
@@ -177,9 +192,11 @@ body {
       position: absolute;
       right: -100px;
       bottom: -70px; }
-      @media (max-width: 600px) {
+      @media (max-width: 660px) {
         .services_container_content_dekore {
-          bottom: -115px; } }
+          bottom: -125px;
+          right: -50px;
+          z-index: -1; } }
   .services_container_category {
     font-family: 'Poppins', sans-serif;
     color: #5E6282;
@@ -707,6 +724,10 @@ body {
     right: -95px;
     bottom: -70px;
     z-index: 1; }
+    @media (max-width: 660px) {
+      .subscribe_container_plus {
+        right: -55px;
+        bottom: -70px; } }
 
 /* Ending of of Section 7 "Subscribe" content stylesheet */
 /* Beginning of Footer content stylesheet */
